@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C86</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="body_background">
+	<center>
+		<div  class="btn-primary heading">
+			<h2 >Superhero</h2>
+			<button class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Instructions</button>
+		</div>
+
+
+	
+
+<div id="myModal" class="modal fade ">
+        <div class="modal-dialog" >
+          <!-- Modal content-->
+          <div class="modal-content">
+      
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4 style="color:blue; font-size:25px;"><b>Instructions</b></h4>
+            </div>
+              
+             <div class="modal-body">
+               <b>1. Press W to see captain america left hand image &nbsp;&nbsp;&nbsp;<img src="captain_america_left_hand.png" style="width:30px; height:30px;"></b>
+               <br> <br>
+               <b>2. Press C to see hulk face image &nbsp;&nbsp;&nbsp;<img src="hulk_face.png" style="width:30px; height:30px;"></b>
+               <br>  <br> 
+               <b>3. Press D to see hulk left hand  image &nbsp;&nbsp;&nbsp;<img src="hulk_left_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>4. Press G to see hulk legs image &nbsp;&nbsp;&nbsp;<img src="hulk_legs.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>5. Press L to see hulk right hand  image &nbsp;&nbsp;&nbsp;<img src="hulk_right_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>6. Press R to see hulkd body image &nbsp;&nbsp;&nbsp;<img src="hulkd_body.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>7. Press T to see ironman body image &nbsp;&nbsp;&nbsp;<img src="ironman_body.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>8. Press U to see ironman face  image &nbsp;&nbsp;&nbsp;<img src="ironman_face.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>9. Press Y to see ironman left hand image &nbsp;&nbsp;&nbsp;<img src="ironman_left_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>10. Press T to see ironman legs image &nbsp;&nbsp;&nbsp;<img src="ironman_legs.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>11. Press U to see ironman right hand image &nbsp;&nbsp;&nbsp;<img src="ironman_right_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>12. Press Y to see spiderman body image &nbsp;&nbsp;&nbsp;<img src="spiderman_body.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>13. Press W to see spiderman face image &nbsp;&nbsp;&nbsp;<img src="spiderman_face.png" style="width:30px; height:30px;"></b>
+               <br> <br>
+               <b>14. Press C to see spiderman left hand image &nbsp;&nbsp;&nbsp;<img src="spiderman_face.png" style="width:30px; height:30px;"></b>
+               <br>  <br> 
+               <b>15. Press D to see spiderman legs  image &nbsp;&nbsp;&nbsp;<img src="spiderman_legs.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>16. Press G to see spiderman right hand image &nbsp;&nbsp;&nbsp;<img src="spiderman_right_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>17. Press L to see thor face image &nbsp;&nbsp;&nbsp;<img src="thor_face.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>18. Press R to see thor left hand image &nbsp;&nbsp;&nbsp;<img src="thor_left_hand.png" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>19. Press T to see thor right hand image &nbsp;&nbsp;&nbsp;<img src="thor_right_hand.pngwqs" style="width:30px; height:30px;"></b> 
+               <br> <br> 
+               <b>20. Press <span style="color:red; background-color:black;width:50px;">  SHIFT+P  </span> to increase the size of the blocks by 10px</b> 
+               <br> <br>
+               <b>21. Press <span style="color:red; background-color:black;width:50px;">SHIFT+M</span> to decrease the size of the blocks by -10px</b>
+               <br> <br>
+               <b>22. Try to create an image like - <img src="Final_output.png" style="width:200px; height:200px;"> OR create your own design</b> 
+               <br> <br>
+              </div>
+			  </div>
+			  </div>
+       </div>
+
+			<br>
+
+		<div id="head_info" class="btn-danger">
+			<h3>Current Width  = <span id="current_width">  30    </span></h3>
+			<h3> &nbsp;  &nbsp; &nbsp; Current Height  = <span id="current_height">  30    </span></h3>
+		</div>
+
+		<canvas width="1000" height="600" id="myCanvas"></canvas>
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
